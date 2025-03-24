@@ -23,7 +23,6 @@ public class E02KthSmallest {
             result = node.value;
             return;
         }
-
         inOrder(node.right, k);
     }
 }
