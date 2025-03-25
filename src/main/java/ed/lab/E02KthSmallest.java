@@ -15,7 +15,6 @@ public class E02KthSmallest {
 
     private void inOrder(TreeNode<Integer> node, int k) {
         if (node == null) return;
-
         inOrder(node.left, k);
         count++;
 

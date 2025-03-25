@@ -8,7 +8,6 @@ public class E01InvertBT {
         TreeNode<Integer> temp = root.left;
         root.left = invertTree(root.right);
         root.right = invertTree(temp);
-
         return root; // Retornamos la nueva raíz invertida
     }
 }
